@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/husky.sh"
+
+# Pull remote repository
+git fetch --prune && git pull
+
+# Check for console log in staged files
+CONSOLE_LOG_CHECK=$(grep -n -r --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=.git 'console\.log' . || true)
+
+# If console log statements are found, prevent the commit
+if [ -n "$CONSOLE_LOG_CHECK" ]; then
+  echo "Error: Found console log statements. Please remove them before committing."
+  echo "$CONSOLE_LOG_CHECK"
+  exit 1
+fi
+
+# Run linting
+npm run lint
+
+# Run test
+npm run test

@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 300000,
+    "ENUM_ID": "CURRENCY_CASH",
+    "GOODS_TYPE": 1,
+    "CURRENCY_TYPE": 1,
+    "NAME": 10000164
+  },
+  {
+    "ID": 300001,
+    "ENUM_ID": "CURRENCY_GOLD",
+    "GOODS_TYPE": 1,
+    "CURRENCY_TYPE": 2,
+    "NAME": 10000163
+  },
+  {
+    "ID": 300002,
+    "ENUM_ID": "CURRENCY_DIAMOND",
+    "GOODS_TYPE": 1,
+    "CURRENCY_TYPE": 3,
+    "NAME": 10000165
+  }
+]

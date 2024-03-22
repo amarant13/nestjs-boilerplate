@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 200000,
+    "ENUM_ID": "ITEM_PIECE_BEAT",
+    "GOODS_TYPE": 2,
+    "ITEM_TYPE": 1
+  },
+  {
+    "ID": 200001,
+    "ENUM_ID": "ITEM_PIECE_RU_I",
+    "GOODS_TYPE": 2,
+    "ITEM_TYPE": 2
+  },
+  {
+    "ID": 200002,
+    "ENUM_ID": "ITEM_PIECE_SHIMIZU",
+    "GOODS_TYPE": 2,
+    "ITEM_TYPE": 3
+  }
+]

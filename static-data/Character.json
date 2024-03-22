@@ -1,0 +1,47 @@
+[
+  {
+    "ID": 101001,
+    "ENUM_ID": "CHARACTER_BEAT",
+    "TIER": 1,
+    "ELEMENT": 1,
+    "LICENSE": 2,
+    "CLASS": 1,
+    "CHARACTER_TYPE": 1
+  },
+  {
+    "ID": 101011,
+    "ENUM_ID": "CHARACTER_RU_I",
+    "TIER": 1,
+    "ELEMENT": 2,
+    "LICENSE": 2,
+    "CLASS": 1,
+    "CHARACTER_TYPE": 1
+  },
+  {
+    "ID": 101031,
+    "ENUM_ID": "CHARACTER_SHIMIZU",
+    "TIER": 1,
+    "ELEMENT": 5,
+    "LICENSE": 1,
+    "CLASS": 2,
+    "CHARACTER_TYPE": 1
+  },
+  {
+    "ID": 110003,
+    "ENUM_ID": "ENEMY_MONSTER_STORY_00_02_GAUNTLET",
+    "TIER": 1,
+    "ELEMENT": 4,
+    "LICENSE": 3,
+    "CLASS": 1,
+    "CHARACTER_TYPE": 2
+  },
+  {
+    "ID":110004,
+    "ENUM_ID":"ENEMY_MONSTER_STORY_00_02_SHIMIZU",
+    "TIER":1,
+    "ELEMENT":5,
+    "LICENSE":1,
+    "CLASS":2,
+    "CHARACTER_TYPE":2
+  }
+]
